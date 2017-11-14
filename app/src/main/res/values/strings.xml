@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Grocery List</string>
+    <string name="action_settings">Settings</string>
+    <string name="heading_line">Items to buy</string>
+    <string name="heading_column1">Item</string>
+    <string name="heading_column2">Qty</string>
+    <string name="heading_column3">Buy</string>
+    <string name="edit_record_title">Edit item</string>
+    <string name="add_record_title">Add item</string>
+    <string name="edit_record_tv_item_name">Item name</string>
+    <string name="edit_record_tv_position">Position</string>
+    <string name="edit_record_tv_qty">Quantity</string>
+    <string name="to_buy">To buy</string>
+    <string name="bought">Bought</string>
+    <string name="essential">Essential</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+</resources>

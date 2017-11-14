@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/edit_record_title"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewEditRecordTitle" />
+
+    <TextView
+        android:text="@string/edit_record_tv_item_name"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewItemName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:ems="10"
+        android:id="@+id/editTextItemName"
+        android:inputType="text" />
+
+    <TextView
+        android:text="@string/edit_record_tv_position"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPosition" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextPosition" />
+
+    <TextView
+        android:text="@string/edit_record_tv_qty"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewQty" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextQty" />
+
+    <CheckBox
+        android:text="@string/to_buy"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxToBuy" />
+
+    <CheckBox
+        android:text="@string/bought"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxBought" />
+
+    <CheckBox
+        android:text="@string/essential"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxEssential" />
+
+    <Button
+        android:text="@string/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSave" />
+
+    <Button
+        android:text="@string/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDelete" />
+
+    <Button
+        android:text="@string/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCancel" />
+</LinearLayout>
