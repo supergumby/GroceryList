@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /**
  * Created by gcler on 2017-10-28.
- */
+ * DbHelper pour gérer la base de données SQL des items/
 
 public class ItemDbHelper extends SQLiteOpenHelper {
 
